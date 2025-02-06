@@ -1,7 +1,8 @@
 provider "google" {
   project     = "forthbrand-website-project"
   region      = "us-central1"
-  credentials = file("C:\Users\eduar\OneDrive\Desktop")
+  credentials = file("credentials = file("C:\\Users\\eduar\\OneDrive\\Desktop\\forthbrand-website-project-c95519f0d57b.json")
+")
 }
 
 resource "google_storage_bucket" "website_bucket" {
