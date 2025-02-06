@@ -1,8 +1,10 @@
+
 provider "google" {
+  credentials = file("C:/Users/eduar/OneDrive/Desktop/forthbrand-website-project-c95519f0d57b.json")
   project     = "forthbrand-website-project"
-  region      = "us-central1"
-  credentials = file("credentials = file("C:\Users\eduar\OneDrive\Desktop\forthbrand-website-project-c95519f0d57b.json")
-")
+  region      = "us-central1 (Iowa)"
+}
+
 }
 
 resource "google_storage_bucket" "website_bucket" {
