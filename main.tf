@@ -5,7 +5,6 @@ provider "google" {
   region      = "us-central1 (Iowa)"
 }
 
-}
 
 resource "google_storage_bucket" "website_bucket" {
   name          = "forthbrand-website-bucket"
