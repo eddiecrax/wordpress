@@ -1,6 +1,6 @@
 
 provider "google" {
-  credentials = file("C:/Users/eduar/OneDrive/Desktop/forthbrand-website-project-c95519f0d57b.json")
+  credentials = file("./forthbrand-website-project-c95519f0d57b.json")
   project     = "forthbrand-website-project"
   region      = "us-central1 (Iowa)"
 }
